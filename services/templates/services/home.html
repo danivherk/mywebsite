@@ -3,6 +3,8 @@
 {% load staticfiles %}
 
 
+<link href="{% static 'services/style.css' %}" rel="stylesheet">
+<link href="{% static 'services/style.js' %}" rel="stylesheet">
 <main role="main">
 <body>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -74,11 +76,9 @@
           <div class="shadow-lg">
             <div class="col-10" align="center">
               <div> <img class="rounded-circle" src= "{{ service.image.url }}" width="113.5" height="85"/>
-
                 <h3> {{service.title}}</h3>
                 <p>{{service.summary}}</p>
                 <p><a class="btn btn-info btn-round" href="#" role="button">More Info</a></p>
-
                 </div>
               </div>
             </div>
@@ -91,19 +91,36 @@
   </div>
 </div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
 <div class="container">
-    <div class="box">
-        <div class="imgBox">
-            <img src="https://www.planwallpaper.com/static/images/47141475-hd-wallpapers.jpg">
-        </div>
-        <div class="content">
-            <h2>Image Hover Effects</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. </p>
-        </div>
-    </div>
+
+  <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+  </div>
+
+<div class="parallax"></div>
+
+  <div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+  </div>
+
+
+
+
+
+
+
+
 
 
 </body>
