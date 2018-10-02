@@ -68,28 +68,58 @@
 
 <div class="container">
   <div class="row">
-
-    {% for service in services.all %}
-
-      <div class="col-md-3">
         <div class= "card" class="card-columns" style="width:300px" align="center">
           <div class="shadow-lg">
             <div class="col-10" align="center">
-              <div> <img class="rounded-circle" src= "{{ service.image.url }}" width="113.5" height="85"/>
-                <h3> {{service.title}}</h3>
-                <p>{{service.summary}}</p>
-                <p><a class="btn btn-info btn-round" href="#" role="button">More Info</a></p>
+              <div> <img class="rounded-circle" src= "{% static 'videoediting.png' %}" width="113.5" height="85"/>
+                <h3> Video Editing</h3>
+                <p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                <p><a class="btn btn-info btn-round" href="{% url 'editing' %}" role="button">More Info</a></p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+          <div class="row">
+            <div class= "card" class="card-columns" style="width:300px" align="center">
+              <div class="shadow-lg">
+                <div class="col-10" align="center">
+                  <div> <img class="rounded-circle" src= "{% static 'audio.png' %}" width="113.5" height="85"/>
+                      <h3> Audio</h3>
+                      <p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                      <p><a class="btn btn-info btn-round" href="{% url 'audio' %}" role="button">More Info</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row">
+                <div class= "card" class="card-columns" style="width:300px" align="center">
+                  <div class="shadow-lg">
+                    <div class="col-10" align="center">
+                      <div> <img class="rounded-circle" src= "{% static 'design.png' %}" width="113.5" height="85"/>
+                          <h3> Design</h3>
+                          <p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                          <p><a class="btn btn-info btn-round" href="{% url 'design'%}" role="button">More Info</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                      <div class= "card" class="card-columns" style="width:300px" align="center">
+                        <div class="shadow-lg">
+                          <div class="col-10" align="center">
+                            <div> <img class="rounded-circle" src= "{% static 'media.png' %}" width="113.5" height="85"/>
+                                <h3> Media Consulting</h3>
+                                <p><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                                <p><a class="btn btn-info btn-round" href="{% url 'mediaconsulting'%}" role="button">More Info</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
 
 <br>
 <br>

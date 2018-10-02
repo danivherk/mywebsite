@@ -32,7 +32,10 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'services.apps.ServicesConfig',
-    'portfolio.apps.PortfolioConfig',
+    'videoediting.apps.VideoeditingConfig',
+    'mediaconsulting.apps.MediaconsultingConfig',
+    'design.apps.DesignConfig',
+    'audio.apps.AudioConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
