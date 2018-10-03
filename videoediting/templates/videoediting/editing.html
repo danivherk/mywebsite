@@ -1,1 +1,25 @@
-editing
+{% extends 'base.html' %}
+{% block content%}
+{% load staticfiles %}
+
+<link href="{% static 'services/style.css' %}" rel="stylesheet">
+
+
+<div class="container">
+
+  
+  </div>
+
+<div class="parallax"></div>
+
+  <div style="height:1000px;background-color:white;">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+  </div>
+
+
+
+
+
+{% endblock %}

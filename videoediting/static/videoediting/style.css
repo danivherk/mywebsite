@@ -2,7 +2,7 @@
     /* The image used */
     background: url('denhaag.png');
     /* Full height */
-    height: 100px;
+    height: 1000px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-size: cover;
