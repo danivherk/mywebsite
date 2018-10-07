@@ -1,8 +1,8 @@
 .parallax {
     /* The image used */
-    background: url('denhaag.png');
+    background: url('Audiobgbw.png');
     /* Full height */
-    height: 1000px;
+    height: 400px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-size: cover;

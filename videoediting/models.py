@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Videoediting(models.Model):
-    videos = models.ImageField(upload_to='')
+    videos = models.FileField(upload_to='videos')
     title = models.CharField(max_length=50)
     summary = models.CharField(max_length=200)
 
