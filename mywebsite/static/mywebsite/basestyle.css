@@ -2,14 +2,16 @@ p {
     font-family: "helvetica", serif;
 }
 h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "arial",sans-serif;
 }
+
+
 
 .dropbtn {
     display: inline-block;
     position: relative;
-    background-color: #f7f9fa;
-    color: grey;
+    background-color: red;
+    color: red ;
     padding-top: 10px;
     font-size: 16;
     font-family: helvetica;
@@ -27,7 +29,7 @@ h4 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f7f9fa;
+    background-color: #040403;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -36,18 +38,18 @@ h4 {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: grey;
-    padding: 5px 10px;
+    color: red;
+    padding: 10px 10px;
     text-decoration: none;
     display: block;
     border-radius: 5px;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {text:}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #eceded;}
+.dropdown:hover .dropbtn {text:}

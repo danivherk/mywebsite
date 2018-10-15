@@ -3,10 +3,11 @@
 {% load staticfiles %}
 
 
-<link href="{% static 'services/style.css' %}" rel="stylesheet">
+<link href="{% static 'services/home.css' %}" rel="stylesheet">
+
 
 <main role="main">
-<body style="background-color:#f7f9fa;>
+<body>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -55,51 +56,51 @@
 <br>
 <br>
 
-  <div class="container-fluid" align="center">
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-      Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.</p>
+  <div class="container" align="center">
+      <p> <font color=#a1a1a1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+      Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.</font></p>
   </div>
 
 <br>
 <br>
 <br>
 
-<div class = "container" align="center">
-<div class="card-deck">
+<div class="container" style="background-color:#202020">
+<div class="card-deck" >
 
-  <div class="shadow-lg">
+  <div >
     <div class="card-body text-center" style="width:280px">
-      <div> <img class="rounded-circle" src= "{% static 'videoediting.png' %}" width="113.5" height="85"/> </div>
-      <h3> Video Editing </h3>
-      <p class="card-text" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-      <a href="{% url 'editing'%}" class="btn btn-info" role="button">More Info</a>
+          <div> <img class="rounded-circle" src= "{% static 'videoediting.png' %}" width="113.5" height="85"/> </div>
+      <h3> <font color=#ff7c0b>Video Editing </font></h3>
+      <p class="card-text"><font color= "grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</font></p>
+      <a href="{% url 'editing'%}" class="btn btn-outline-secondary" role="button">More Info</a>
     </div>
   </div>
 
-  <div class="shadow-lg">
+  <div class="shadow">
     <div class="card-body text-center" style="width:280px">
       <div> <img class="rounded-circle" src= "{% static 'audio.png' %}" width="113.5" height="85"/> </div>
-      <h3> Audio </h3>
-      <p class="card-text" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-      <a href="{% url 'audio'%}" class="btn btn-info" role="button">More Info</a>
+      <h3><font color=#7c00ff> Audio </font></h3>
+      <p class="card-text"><font color= "grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</font></p>
+      <a href="{% url 'audio'%}" class="btn btn-outline-secondary" role="button">More Info</a>
     </div>
   </div>
 
-  <div class="shadow-lg">
+  <div class="shadow">
     <div class="card-body text-center" style="width:280px">
       <div> <img class="rounded-circle" src= "{% static 'design.png' %}" width="113.5" height="85"/> </div>
-      <h3> Design </h3>
-      <p class="card-text" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-      <a href="{% url 'design'%}" class="btn btn-info" role="button">More Info</a>
+      <h3> <font color=#82ff00>Design </font> </h3>
+      <p class="card-text"><font color= "grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</font></p>
+      <a href="{% url 'design'%}" class="btn btn-outline-secondary" role="button">More Info</a>
     </div>
   </div>
 
-  <div class="shadow-lg">
+  <div >
     <div class="card-body text-center" style="width:280px">
       <div> <img class="rounded-circle" src= "{% static 'media.png' %}" width="113.5" height="85"/> </div>
-      <h3> Media Consulting </h3>
-      <p class="card-text" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-      <a href="{% url 'mediaconsulting' %}" class="btn btn-info" role="button">More Info</a>
+      <h3> <font color=#ff0096> Media Consulting </font> </h3>
+      <p class="card-text"><font color= "grey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</font></p>
+      <a href="{% url 'mediaconsulting' %}" class="btn btn-outline-secondary" role="button">More Info</a>
       </div>
     </div>
   </div>

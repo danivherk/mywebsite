@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template -->
 
-    <link href="{% static '/basestyle.css' %}" rel="stylesheet">
+    <link href="{% static 'mywebsite/basestyle.css' %}" rel="stylesheet">
 
   </head>
 
@@ -23,11 +23,10 @@
   <body>
     <header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #171924;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#040403">
         <div class="container">
-          <img src="{% static 'main.png'%}" width=70px height= 50px/>
-            <a class="navbar-brand js-scroll-trigger" href="{% url 'home'%}"> Dcreso</a>
-
+          <img src="{% static 'mywebsite/mainwhite.png'%}" width=70px height= 50px/>
+            <a class="navbar-brand js-scroll-trigger" href="{% url 'home'%}">Dcreso</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,14 +41,16 @@
                   </div>
 
                   <div class="dropdown">
-                    <button class="dropbtn">Services</button>
+                      <div style="padding-top:8px">
+                    <button class="dropbtn">Services</button></a>
                     <div class="dropdown-content">
                       <a class="nav-item nav-link" href="{% url 'editing' %}">Video Editing</a>
                       <a class="nav-item nav-link" href="{% url 'audio' %}">Audio</a>
-                      <a class="nav-item nav-link"href="{% url 'design' %}">Design</a>
+                      <a class="nav-item nav-link" href="{% url 'design' %}">Design</a>
                       <a class="nav-item nav-link" href="{% url 'mediaconsulting' %}">Media Consulting</a>
                     </div>
                   </div>
+                </div>
 
           <div class= "dropdown">
             <button class="dropbtn">
@@ -71,7 +72,7 @@
       <br>
       <br>
       <br>
-      <footer class="container" align="center" style="background-color:#f7f9fa;">
+      <footer class="container" align="center">
         <br>
         <br>
         <br>
