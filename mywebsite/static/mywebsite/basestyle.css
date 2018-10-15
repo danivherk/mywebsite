@@ -10,8 +10,8 @@ h4 {
 .dropbtn {
     display: inline-block;
     position: relative;
-    background-color: red;
-    color: red ;
+    background-color: #040403;
+    color: grey;
     padding-top: 10px;
     font-size: 16;
     font-family: helvetica;
@@ -38,7 +38,7 @@ h4 {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: red;
+    color: #040403;
     padding: 10px 10px;
     text-decoration: none;
     display: block;
