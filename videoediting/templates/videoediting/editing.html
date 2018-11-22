@@ -4,88 +4,116 @@
 
 <link href="{% static 'videoediting/videostyle.css' %}" rel="stylesheet">
 
+<script src="https://unpkg.com/scrollreveal"></script>
 
-
-
+<body>
 <div class="container">
 </div>
 
 <div class="parallax"></div>
 
-<div style="height:400px;background-color:#050606;">
+<div style="height:200%">
   <br>
   <br>
   <br>
   <div class="container" align="center">
-    <p><font color=grey> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+    <p><font color="#d6d6d6"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
     Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia.</font></p>
+<br>
+<br>
   </div>
 </div>
 
-<div class="parallax"></div>
 
-<div style="height:900px;background-color:#1d1d1e;">
-  <br>
-  <br>
-  <br>
-
-   <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="card" style="background-color:#1d1d1e;">
-                <div class="card-image" >
-                    <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8rcBlYCKKW8"frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div><!-- card image -->
-                <div class="card-content">
-
-                </div><!-- card content -->
-              </div>
-
-
-</div>
-    <div class="col-md-6 ">
-        <div class="card" style="background-color:#1d1d1e;">
-            <div class="card-image">
-                <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XMLFnLkXxrs" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div><!-- card image -->
-            <div class="card-content">
-                <br>
-            </div><!-- card content -->
+<section id=video1>
+<div style="min-height:400px; max-height: 400%; min-width:70px; max-width:1920px">
+<div class="row">
+  <div class="column">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="hovereffect">
+      <div class="vids1">
+        <img class="img-responsive" src="{% static 'videoediting/TRBM2.png'%}" style="width:100%"  alt="">
+            <div class="overlay">
+                <h2>The Reason Behind Me</h2>
+				<p>
+					<a href="{% url 'reason' %}">CLICK HERE TO WATCH THE VIDEO</a>
+				</p>
           </div>
         </div>
-
-
-
-
-<div class="col-md-6 ">
-    <div class="card" style="background-color:#1d1d1e;">
-        <div class="card-image">
-            <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mlz2MvczB-w" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div><!-- card image -->
-        <div class="card-content">
-        </div><!-- card content -->
       </div>
-    </div>
-
-
-<div class="col-md-6 ">
-    <div class="card" style="background-color:#1d1d1e;">
-        <div class="card-image">
-            <div class="embed-responsive embed-responsive-16by9">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IqEDgfKGErE" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div><!-- card image -->
-        <div class="card-content">
-          <br>
-        </div><!-- card content -->
       </div>
-    </div>
+        </div>
+
+      <div class="column">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="hovereffect">
+          <div class="vids1">
+          <img class="img-responsive" src="{% static 'videoediting/Consq2.png'%}" style="width:100%"  alt="">
+                <div class="overlay">
+                    <h2>Consequences</h2>
+    				<p>
+              <a href="{% url 'consq' %}">CLICK HERE TO WATCH THE VIDEO</a>
+              			</p>
+                  </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+                <div class="column">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div class="hovereffect">
+                    <div class="vids2">
+                      <img class="img-responsive" src="{% static 'videoediting/onemoment.png'%}" style="width:100%"  alt="">
+                          <div class="overlay">
+                              <h2>One Moment</h2>
+              				<p>
+              					<a href="{% url 'onemoment' %}">CLICK HERE TO WATCH THE VIDEO</a>
+              				</p>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="column">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="hovereffect">
+                        <div class="vids2">
+                          <img class="img-responsive" src="{% static 'videoediting/tcly.png'%}" style="width:100%"  alt="">
+                              <div class="overlay">
+                                  <h2>The Camera Loves You</h2>
+                  				<p>
+                            <a href="{% url 'camera' %}">LINK HERE</a>
+                  				</p>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+
+              </div>
+              <br>
+              <br>
+              </div>
+
+</section>
+
+
+<script>
+  window.sr = ScrollReveal();
+  sr.reveal('.vids1',{
+    duration: 2000,
+    origin: 'top',
+
+  })
+  sr.reveal('.vids2',{
+    duration: 3000,
+    origin: 'top',
+
+  })
+</script>
+
 </body>
 
 {% endblock %}

@@ -1,0 +1,22 @@
+body {
+   background-image: url("videosbg.png");
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+p{
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+p-2{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Helvetica;
+  }

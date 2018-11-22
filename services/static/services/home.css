@@ -1,9 +1,9 @@
 
 .parallax {
     /* The image used */
-    background: url('Colourgradigbg.png');
+    background: url('Dcresopara.png');
     /* Full height */
-    height: 400px;
+    height: 550px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-size: cover;
@@ -11,14 +11,11 @@
 
 
 
-body {
-   background-image: url("backgroundhometwo.png");
+#page {
+   background-image: url("main11.png");
    /* Full height */
-   height: 100%;
 
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
+   background-attachment: fixed;
    background-size: cover;
-
+   /* Center and scale the image nicely */
 }

@@ -5,13 +5,23 @@ h4 {
   font-family: "arial",sans-serif;
 }
 
+.navbar{
+  background: rgba(0,0,0,1);
 
+}
+
+.navbar a{
+  color:white
+}
+.navbar a:hover {
+  color:grey
+}
 
 .dropbtn {
     display: inline-block;
     position: relative;
-    background-color: #040403;
-    color: grey;
+    background-color: transparent ;
+    color: white;
     padding-top: 10px;
     font-size: 16;
     font-family: helvetica;
@@ -19,26 +29,31 @@ h4 {
     border-radius: 5px;
     }
 
+.dropbtn a:hover{
+  color:#d3d3d3
+}
+
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
-}
+    }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #040403;
-    min-width: 200px;
+    background-color: #181818 ;
+    min-width: 175px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: #040403;
+    color:;
     padding: 10px 10px;
     text-decoration: none;
     display: block;
@@ -46,10 +61,10 @@ h4 {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {text:}
+.dropdown-content a:hover {text: ;color:#d3d3d3}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {text:}
+.dropdown:hover .dropbtn {text: ; color:#d3d3d3}

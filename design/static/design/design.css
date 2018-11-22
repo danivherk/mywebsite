@@ -1,0 +1,8 @@
+
+#pagebg {
+  background-image: url("Designbg.png");
+  /* Full height */
+
+  background-attachment: fixed;
+  background-size: cover;
+}
